@@ -44,11 +44,23 @@ Whether an individual was infected or not is categorical. Whether an individual 
 
 ### Graphical Descriptive Results
 
+```{r}
+dd2 <- Male %>% group_by(infected,treatment) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
+basicC <- ggplot(dd2,aes(x=infected,y=count,fill=treatment))
+basicC + geom_bar(stat="identity",position="dodge")
+#Now for percentage plot
+basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
+
+
 
 ### Numerical Descriptive Results 
 
 
+
 ### Inferential Descriptive Results 
+
 
 
 ### Conclusion
@@ -59,11 +71,21 @@ Whether an individual was infected or not is categorical. Whether an individual 
 
 ### Graphical Descriptive Results
 
+```{r}
+dd2 <- Female %>% group_by(infected,treatment) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
+basicC <- ggplot(dd2,aes(x=infected,y=count,fill=treatment))
+basicC + geom_bar(stat="identity",position="dodge")
+#Now for percentage plot
+basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
 
 ### Numerical Descriptive Results 
 
 
+
 ### Inferential Descriptive Results 
+
 
 
 ### Conclusion
@@ -74,11 +96,21 @@ Whether an individual was infected or not is categorical. Whether an individual 
 
 ### Graphical Descriptive Results
 
+```{r}
+dd2 <- Gay %>% group_by(infected,treatment) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
+basicC <- ggplot(dd2,aes(x=infected,y=count,fill=treatment))
+basicC + geom_bar(stat="identity",position="dodge")
+#Now for percentage plot
+basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
 
 ### Numerical Descriptive Results 
 
 
+
 ### Inferential Descriptive Results 
+
 
 
 ### Conclusion
@@ -89,11 +121,21 @@ Whether an individual was infected or not is categorical. Whether an individual 
 
 ### Graphical Descriptive Results
 
+```{r}
+dd2 <- DrugUser %>% group_by(infected,treatment) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
+basicC <- ggplot(dd2,aes(x=infected,y=count,fill=treatment))
+basicC + geom_bar(stat="identity",position="dodge")
+#Now for percentage plot
+basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
 
 ### Numerical Descriptive Results 
 
 
+
 ### Inferential Descriptive Results 
+
 
 
 ### Conclusion
