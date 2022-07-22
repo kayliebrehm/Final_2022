@@ -65,7 +65,12 @@ colPerc(table1)
 
 ### Inferential Descriptive Results 
 
-
+```{r}
+table1 <- xtabs(~infected + treatment, data=Male)
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 ### Conclusion
 
@@ -87,14 +92,19 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ### Numerical Descriptive Results 
 
 ```{r}
-table1 <- xtabs(~infected + treatment, data=Female)
-rowPerc(table1)
-colPerc(table1)
+table2 <- xtabs(~infected + treatment, data=Female)
+rowPerc(table2)
+colPerc(table2)
 ```
 
 ### Inferential Descriptive Results 
 
-
+```{r}
+table2 <- xtabs(~infected + treatment, data=Female)
+chisq.test(table2)
+chisqtestGC(table2)
+fisher.test(table2)
+```
 
 ### Conclusion
 
@@ -116,14 +126,19 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ### Numerical Descriptive Results 
 
 ```{r}
-table1 <- xtabs(~infected + treatment, data=Gay)
-rowPerc(table1)
-colPerc(table1)
+table3 <- xtabs(~infected + treatment, data=Gay)
+rowPerc(table3)
+colPerc(table3)
 ```
 
 ### Inferential Descriptive Results 
 
-
+```{r}
+table3 <- xtabs(~infected + treatment, data=Gay)
+chisq.test(table3)
+chisqtestGC(table3)
+fisher.test(table3)
+```
 
 ### Conclusion
 
@@ -145,14 +160,19 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ### Numerical Descriptive Results 
 
 ```{r}
-table1 <- xtabs(~infected + treatment, data=DrugUser)
-rowPerc(table1)
-colPerc(table1)
+table4 <- xtabs(~infected + treatment, data=DrugUser)
+rowPerc(table4)
+colPerc(table4)
 ```
 
 ### Inferential Descriptive Results 
 
-
+```{r}
+table4 <- xtabs(~infected + treatment, data=DrugUser)
+chisq.test(table4)
+chisqtestGC(table4)
+fisher.test(table4)
+```
 
 ### Conclusion
 
