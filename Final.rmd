@@ -18,6 +18,12 @@ FinalDat <-read.csv(file="final_Data.csv",header=TRUE)
 FinalData <- FinalDat  %>% select(-one_of("X"))
 FinalData <- FinalData %>%
 mutate(across(where(is.character), as.factor))
+FinalData$treatment <- relevel(FinalData$treatment,ref="placebo")
+#FinalData$infected <- relevel(FinalData$infected,ref="OK")
+Male = filter(FinalData, sex =="M")
+Female = filter(FinalData, sex =="F")
+Gay = filter(FinalData, LGBTQ =="gay")
+DrugUser = filter(FinalData, DrugUser =="yes")
 ```
 
 # Introduction
@@ -28,24 +34,13 @@ A new  preventative vaccine (covid91) is under test in clinical trials. Given th
 
 ## Hypothesis and Method
 
+$H_0$: The preventative vaccine, covid91, is not effective for this particular subgroup (male, female, gay, or drug user).
 
+$H_A$: The preventative vaccine, covid91, is effective for this particular subgroup (male, female, gay, or drug user).
 
-## Males
+Whether an individual was infected or not is categorical. Whether an individual was male or female is categorical. Whether an individual is gay or straight is categorical. Whether an individual is a drug user or not is categorical. I will use a CAT~CAT analysis to determine whether the vaccine was effective for each particular subgroup. In each subgroup section, I will use a bar chart (graphical descriptive results), a data table (numerical descriptive results), a chi-squared test (inferential descriptive results), and a fisher exact test (inferential descriptive results). Then, in each subgroup section, I will analyze the data and give a conclusion. Once each subgroup is completed, I will give my overall thoughts thoughts on the study. 
 
-### Graphical Descriptive Results
-
-
-### Numerical Descriptive Results 
-
-
-### Inferential Descriptive Results 
-
-
-### Discussion and Conclusion
-
-
-
-## Females
+## Male
 
 ### Graphical Descriptive Results
 
@@ -56,26 +51,11 @@ A new  preventative vaccine (covid91) is under test in clinical trials. Given th
 ### Inferential Descriptive Results 
 
 
-### Discussion and Conclusion
+### Conclusion
 
 
 
-## LGBTQ
-
-### Graphical Descriptive Results
-
-
-### Numerical Descriptive Results 
-
-
-### Inferential Descriptive Results 
-
-
-### Discussion and Conclusion
-
-
-
-## Druggies
+## Female
 
 ### Graphical Descriptive Results
 
@@ -86,9 +66,39 @@ A new  preventative vaccine (covid91) is under test in clinical trials. Given th
 ### Inferential Descriptive Results 
 
 
-### Discussion and Conclusion
+### Conclusion
 
 
 
-# Final Thoughts and Conclusion
+## Gay
+
+### Graphical Descriptive Results
+
+
+### Numerical Descriptive Results 
+
+
+### Inferential Descriptive Results 
+
+
+### Conclusion
+
+
+
+## Drug User
+
+### Graphical Descriptive Results
+
+
+### Numerical Descriptive Results 
+
+
+### Inferential Descriptive Results 
+
+
+### Conclusion
+
+
+
+# Final Thoughts and Discussion
 
