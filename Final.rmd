@@ -57,7 +57,11 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 ### Numerical Descriptive Results 
 
-
+```{r}
+table1 <- xtabs(~infected + treatment, data=Male)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ### Inferential Descriptive Results 
 
@@ -82,7 +86,11 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 ### Numerical Descriptive Results 
 
-
+```{r}
+table1 <- xtabs(~infected + treatment, data=Female)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ### Inferential Descriptive Results 
 
@@ -107,7 +115,11 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 ### Numerical Descriptive Results 
 
-
+```{r}
+table1 <- xtabs(~infected + treatment, data=Gay)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ### Inferential Descriptive Results 
 
@@ -132,7 +144,11 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 ### Numerical Descriptive Results 
 
-
+```{r}
+table1 <- xtabs(~infected + treatment, data=DrugUser)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ### Inferential Descriptive Results 
 
