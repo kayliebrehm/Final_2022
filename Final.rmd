@@ -1,6 +1,6 @@
 ---
 title: "Covid91 vaccine study Final2022"
-author: "Put your name here!"
+author: "Kaylie Brehm"
 output: 
   html_document:
     number_sections: true
@@ -24,15 +24,71 @@ mutate(across(where(is.character), as.factor))
 
 A new  preventative vaccine (covid91) is under test in clinical trials. Given the nature of this vaccine it is suspected that the drug may exhibit different effectiveness across the variety of subpopulations tracked. Consider population subgroups by gender( guys and gals), drug use, and sexual orientation. Write a complete report that separately considers this drug for each subgroup and your recommendations as to whether people in the subgroup should take the vaccine. Structure your report in four sections each devoted to one of the four subgroups, use null and alternative hypothesis statements and correct statistical verbage when referencing p-values in conclusions.
 
+
+
+## Hypothesis and Method
+
+
+
 ## Males
+
+### Graphical Descriptive Results
+
+
+### Numerical Descriptive Results 
+
+
+### Inferential Descriptive Results 
+
+
+### Discussion and Conclusion
+
 
 
 ## Females
 
+### Graphical Descriptive Results
+
+
+### Numerical Descriptive Results 
+
+
+### Inferential Descriptive Results 
+
+
+### Discussion and Conclusion
+
+
 
 ## LGBTQ
+
+### Graphical Descriptive Results
+
+
+### Numerical Descriptive Results 
+
+
+### Inferential Descriptive Results 
+
+
+### Discussion and Conclusion
 
 
 
 ## Druggies
+
+### Graphical Descriptive Results
+
+
+### Numerical Descriptive Results 
+
+
+### Inferential Descriptive Results 
+
+
+### Discussion and Conclusion
+
+
+
+# Final Thoughts and Conclusion
 
