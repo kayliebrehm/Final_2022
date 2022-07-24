@@ -32,13 +32,13 @@ A new  preventative vaccine (covid91) is under test in clinical trials. Given th
 
 
 
-## Hypothesis and Method
+# Hypothesis and Method
 
 $H_0$: The preventative vaccine, covid91, is not effective for this particular subgroup (male, female, gay, or drug user).
 
 $H_A$: The preventative vaccine, covid91, is effective for this particular subgroup (male, female, gay, or drug user).
 
-Whether an individual was infected or not is categorical. Whether an individual was male or female is categorical. Whether an individual is gay or straight is categorical. Whether an individual is a drug user or not is categorical. I will use a CAT~CAT analysis to determine whether the vaccine was effective for each particular subgroup. In each subgroup section, I will use a bar chart (graphical descriptive results), a data table (numerical descriptive results), a chi-squared test (inferential descriptive results), and a fisher exact test (inferential descriptive results). Then, in each subgroup section, I will analyze the data and give a conclusion. Once each subgroup is completed, I will give my overall thoughts thoughts on the study. 
+Whether an individual was infected or not is categorical. Whether an individual was male or female is categorical. Whether an individual is gay or straight is categorical. Whether an individual is a drug user or not is categorical. I will use a CAT~CAT analysis to determine whether the vaccine was effective for each particular subgroup. In each subgroup section, I will use a bar chart (graphical descriptive results), a data table (numerical descriptive results), a chi-squared test (inferential descriptive results), and a fisher exact test (inferential descriptive results). I will also define the upper and lower confidence intervals, and run a test for effectiveness. Then, in each subgroup section, I will analyze the data and give a conclusion. Once each subgroup is completed, I will give my overall thoughts thoughts on the study. 
 
 ## Male
 
@@ -69,7 +69,23 @@ colPerc(table1)
 table1 <- xtabs(~infected + treatment, data=Male)
 chisq.test(table1)
 chisqtestGC(table1)
-fisher.test(table1)
+malesfish <- fisher.test(table1)
+malesfish
+```
+
+### Effictiveness and Confidence Intervals
+
+```{r}
+effect <- malesfish$p.value/(malesfish$p.value +1)
+effectivenessguy = malesfish$estimate/(malesfish$estimate +1)*100
+print(effectivenessguy)
+```
+
+
+```{r}
+low=(malesfish$conf.int[1]/(malesfish$conf.int[1] +1))*100
+hi=(malesfish$conf.int[2]/(malesfish$conf.int[2] +1))*100
+options(digits=2)
 ```
 
 ### Conclusion
@@ -103,7 +119,22 @@ colPerc(table2)
 table2 <- xtabs(~infected + treatment, data=Female)
 chisq.test(table2)
 chisqtestGC(table2)
-fisher.test(table2)
+femalesfish <- fisher.test(table2)
+femalesfish
+```
+
+### Effictiveness and Confidence Intervals
+
+```{r}
+effect <- femalesfish$p.value/(femalesfish$p.value +1)
+effectivenessfemales = femalesfish$estimate/(femalesfish$estimate +1)*100
+print(effectivenessfemales)
+```
+
+```{r}
+low=(femalesfish$conf.int[1]/(femalesfish$conf.int[1] +1))*100
+hi=(femalesfish$conf.int[2]/(femalesfish$conf.int[2] +1))*100
+options(digits=2)
 ```
 
 ### Conclusion
@@ -137,8 +168,26 @@ colPerc(table3)
 table3 <- xtabs(~infected + treatment, data=Gay)
 chisq.test(table3)
 chisqtestGC(table3)
-fisher.test(table3)
+gayfish <- fisher.test(table3)
+gayfish
 ```
+
+
+
+### Effictiveness and Confidence Intervals
+
+```{r}
+effect <- gayfish$p.value/(gayfish$p.value +1)
+effectivenessgay = gayfish$estimate/(gayfish$estimate +1)*100
+print(effectivenessgay)
+```
+
+```{r}
+low=(gayfish$conf.int[1]/(gayfish$conf.int[1] +1))*100
+hi=(gayfish$conf.int[2]/(gayfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
 
 ### Conclusion
 
@@ -171,8 +220,25 @@ colPerc(table4)
 table4 <- xtabs(~infected + treatment, data=DrugUser)
 chisq.test(table4)
 chisqtestGC(table4)
-fisher.test(table4)
+Druguserfish <- fisher.test(table4)
+Druguserfish
 ```
+
+### Effictiveness and Confidence Intervals
+
+```{r}
+effect <- Druguserfish$p.value/(Druguserfish$p.value +1)
+effectivenessDruguser = Druguserfish$estimate/(Druguserfish$estimate +1)*100
+print(effectivenessDruguser)
+```
+
+```{r}
+low=(Druguserfish$conf.int[1]/(Druguserfish$conf.int[1] +1))*100
+hi=(Druguserfish$conf.int[2]/(Druguserfish$conf.int[2] +1))*100
+options(digits=2)
+
+```
+
 
 ### Conclusion
 
