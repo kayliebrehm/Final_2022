@@ -69,6 +69,10 @@ colPerc(table1)
 
 The data table above show values of the male population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
+About 68% of males that took the placebo, got covid-19. While about 32% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among males. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1.
+
+
+
 ### Inferential Descriptive Results 
 
 ```{r}
