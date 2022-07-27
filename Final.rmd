@@ -240,6 +240,10 @@ options(digits=2)
 ```
 
 
+The odds ratio can approximate how effective the vaccine is. If the odds is above 50%, then the vaccine is effective. The 95% confidence interval will also be used to analyze effectiveness. The lower confidence value is about 0.06 and the higher confidence value is about 0.31. The odds ratio is about 0.15. Once converted to percentages, the lower confidence value is about 6.65% and the higher value is about 23.78%. The odds ratio is about 13%. Since this odds ratio is not higher than 50%, we can not conclude that the vaccine is effective for the gay population.
+
+
+
 ### Conclusion
 
 
