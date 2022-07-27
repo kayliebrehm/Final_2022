@@ -53,6 +53,8 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The plots represent the population of males and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
+
 
 
 ### Numerical Descriptive Results 
@@ -105,6 +107,8 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The plots represent the population of females and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
+
 ### Numerical Descriptive Results 
 
 ```{r}
@@ -153,6 +157,8 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
+
+The plots represent the population of gays and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
 
 ### Numerical Descriptive Results 
 
@@ -205,6 +211,8 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
+
+The plots represent the population of drug users and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
 
 ### Numerical Descriptive Results 
 
