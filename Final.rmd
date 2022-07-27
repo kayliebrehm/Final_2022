@@ -169,6 +169,12 @@ hi=(femalesfish$conf.int[2]/(femalesfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
+
+The odds ratio can approximate how effective the vaccine is. If the odds is above 50%, then the vaccine is effective. The 95% confidence interval will also be used to analyze effectiveness. The lower confidence value is about 1.2 and the higher confidence value is about 1.8. The odds ratio is about 1.4. Once converted to percentages, the lower confidence value is about 53.5% and the higher value is about 64.01%. The odds ratio is about 59%. Since this odds ratio is higher than 50%, we can conclude that the vaccine is effective for the female population.
+
+
+
+
 ### Conclusion
 
 
