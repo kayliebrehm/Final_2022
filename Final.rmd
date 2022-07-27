@@ -83,6 +83,11 @@ malesfish <- fisher.test(table1)
 malesfish
 ```
 
+
+After running the chi-squared test, we acquired a P-value of 0.00000000004812. After running the fisher's exact test, we acquired a P-value of 0.00000000004812. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 2:1. This means men are twice as likely to contract covid when taking the placebo compared to the vaccine. I can conclude that there is a difference. 
+
+
+
 ### Effictiveness and Confidence Intervals
 
 ```{r}
