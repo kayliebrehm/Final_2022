@@ -65,6 +65,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+The data table above show values of the male population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
+
 ### Inferential Descriptive Results 
 
 ```{r}
@@ -117,6 +119,8 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+The data table above show values of the female population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
+
 ### Inferential Descriptive Results 
 
 ```{r}
@@ -167,6 +171,11 @@ table3 <- xtabs(~infected + treatment, data=Gay)
 rowPerc(table3)
 colPerc(table3)
 ```
+
+
+The data table above show values of the gay population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
+
+
 
 ### Inferential Descriptive Results 
 
@@ -221,6 +230,8 @@ table4 <- xtabs(~infected + treatment, data=DrugUser)
 rowPerc(table4)
 colPerc(table4)
 ```
+
+The data table above show values of the drug user population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
 ### Inferential Descriptive Results 
 
