@@ -84,7 +84,7 @@ malesfish
 ```
 
 
-After running the chi-squared test, we acquired a P-value of 0.00000000004812. After running the fisher's exact test, we acquired a P-value of 0.00000000004812. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 2.1. I can observe that there is a difference in contracting covid for men who take the vaccine versus the placebo, it being beneficial.  
+After running the chi-squared test, we acquired a P-value of about 0.00000000005. After running the fisher's exact test, we acquired a P-value of about 0.00000000003. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 2.1. I can observe that there is a difference in contracting covid for men who take the vaccine versus the placebo, it being beneficial.  
 
 
 
@@ -102,6 +102,10 @@ low=(malesfish$conf.int[1]/(malesfish$conf.int[1] +1))*100
 hi=(malesfish$conf.int[2]/(malesfish$conf.int[2] +1))*100
 options(digits=2)
 ```
+
+
+The odds ratio can approximate how effective the vaccine is. If the odds is above 50%, then the vaccine is effective. The 95% confidence interval will also be used to analyze effectiveness. The lower confidence value is about 1.7 and the higher confidence value is about 2.6. The odds ratio is about 2.1. Once converted to percentages, the lower confidence value is about 62.51% and the higher value is about 72.51%. The odds ratio is about 68%. Since this odds ratio is higher than 50%, we can conclude that the vaccine is effective for the male population.
+
 
 ### Conclusion
 
@@ -147,7 +151,7 @@ femalesfish
 ```
 
 
-After running the chi-squared test, we acquired a P-value of 0.0011. After running the fisher's exact test, we acquired a P-value of 0.0009484. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 1.4. I can observe that there is a difference in contracting covid for women who take the vaccine versus the placebo, it being beneficial. 
+After running the chi-squared test, we acquired a P-value of about 0.001. After running the fisher's exact test, we acquired a P-value of about 0.0009. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 1.4. I can observe that there is a difference in contracting covid for women who take the vaccine versus the placebo, it being beneficial. 
 
 
 
@@ -211,7 +215,7 @@ gayfish
 ```
 
 
-After running the chi-squared test, we acquired a P-value of 0.0000000132. After running the fisher's exact test, we acquired a P-value of 0.000000001642. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 0.15. I can observe that there is a difference in contracting covid for gays who take the vaccine versus the placebo, it being harmful. 
+After running the chi-squared test, we acquired a P-value of about 0.00000001. After running the fisher's exact test, we acquired a P-value of about 0.000000002. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 0.15. I can observe that there is a difference in contracting covid for gays who take the vaccine versus the placebo, it being harmful. 
 
 
 
@@ -276,7 +280,7 @@ Druguserfish
 ```
 
 
-After running the chi-squared test, we acquired a P-value of 0.0000001803. After running the fisher's exact test, we acquired a P-value of 0.00000002886. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 0.18. I can observe that there is a difference in contracting covid for drug users who take the vaccine versus the placebo, it being harmful. 
+After running the chi-squared test, we acquired a P-value of about 0.0000002. After running the fisher's exact test, we acquired a P-value of about 0.00000003. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 0.18. I can observe that there is a difference in contracting covid for drug users who take the vaccine versus the placebo, it being harmful. 
 
 
 ### Effictiveness and Confidence Intervals
