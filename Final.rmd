@@ -69,7 +69,7 @@ colPerc(table1)
 
 The data table above show values of the male population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-About 68% of males that took the placebo, got covid-19. While about 32% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among males. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1.
+About 68% of males that took the placebo, got covid-19. While about 32% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among males. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1. This means men are twice as likely to contract covid when taking the placebo, compared to the vaccine.
 
 
 
@@ -84,7 +84,7 @@ malesfish
 ```
 
 
-After running the chi-squared test, we acquired a P-value of 0.00000000004812. After running the fisher's exact test, we acquired a P-value of 0.00000000004812. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 2:1. This means men are twice as likely to contract covid when taking the placebo compared to the vaccine. I can conclude that there is a difference. 
+After running the chi-squared test, we acquired a P-value of 0.00000000004812. After running the fisher's exact test, we acquired a P-value of 0.00000000004812. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 2.1. I can observe that there is a difference in contracting covid for men who take the vaccine versus the placebo, it being beneficial.  
 
 
 
@@ -134,7 +134,7 @@ colPerc(table2)
 
 The data table above show values of the female population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-About 59% of females that took the placebo, got covid-19. While about 41% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among females. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1.
+About 59% of females that took the placebo, got covid-19. While about 41% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among females. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1. This means women are twice as likely to contract covid when taking the placebo, compared to the vaccine.
 
 ### Inferential Descriptive Results 
 
@@ -145,6 +145,11 @@ chisqtestGC(table2)
 femalesfish <- fisher.test(table2)
 femalesfish
 ```
+
+
+After running the chi-squared test, we acquired a P-value of 0.0011. After running the fisher's exact test, we acquired a P-value of 0.0009484. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 1.4. I can observe that there is a difference in contracting covid for women who take the vaccine versus the placebo, it being beneficial. 
+
+
 
 ### Effictiveness and Confidence Intervals
 
