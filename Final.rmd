@@ -188,7 +188,7 @@ colPerc(table3)
 
 The data table above show values of the gay population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-
+About 13% of gays that took the placebo, got covid-19. While about 87% that took the vaccine got covid-19. The vaccine is clearly not effective here in preventing covid-19 among gays. Those who took the vaccine were much more likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 0.52 to 3.4, or 0.5:3. 
 
 ### Inferential Descriptive Results 
 
