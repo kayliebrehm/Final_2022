@@ -236,7 +236,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 The plots represent the population of drug users and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
 
-The bar plot depicts that roughly 82% of the drug user population who got covid-19, took the vaccine. Whereas, about 18% of the drug users who got covid-19, took the placebo. For drug users who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of drug users who took the vaccine, contracted covid-19, compared to drug users who took the placebo. This indicates that the vaccine is not effective at all for the drug user population.
+The bar plot depicts that roughly 85% of the drug user population who got covid-19, took the vaccine. Whereas, about 15% of the drug users who got covid-19, took the placebo. For drug users who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of drug users who took the vaccine, contracted covid-19, compared to drug users who took the placebo. This indicates that the vaccine is not effective at all for the drug user population.
 
 ### Numerical Descriptive Results 
 
@@ -247,6 +247,10 @@ colPerc(table4)
 ```
 
 The data table above show values of the drug user population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
+
+About 15% of drug users that took the placebo, got covid-19. While about 85% that took the vaccine got covid-19. The vaccine is clearly not effective here in preventing covid-19 among drug users. Those who took the vaccine were much more likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 0.6 to 3.28, or 0.6:3.3. 
+
+
 
 ### Inferential Descriptive Results 
 
