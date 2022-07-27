@@ -38,7 +38,7 @@ $H_0$: The preventative vaccine, covid91, is not effective for this particular s
 
 $H_A$: The preventative vaccine, covid91, is effective for this particular subgroup (male, female, gay, or drug user).
 
-Whether an individual was infected or not is categorical. Whether an individual was male or female is categorical. Whether an individual is gay or straight is categorical. Whether an individual is a drug user or not is categorical. I will use a CAT~CAT analysis to determine whether the vaccine was effective for each particular subgroup. In each subgroup section, I will use a bar chart (graphical descriptive results), a data table (numerical descriptive results), a chi-squared test (inferential descriptive results), and a fisher exact test (inferential descriptive results). I will also define the upper and lower confidence intervals, and run a test for effectiveness. Then, in each subgroup section, I will analyze the data and give a conclusion. Once each subgroup is completed, I will give my overall thoughts thoughts on the study. 
+Whether an individual was infected or not is categorical. Whether an individual took the vaccine or placebo is categorical. I will use a CAT~CAT analysis to determine whether the vaccine was effective for each particular subgroup: male, female, gay, or drug user. In each subgroup section, I will use a bar chart (graphical descriptive results), a data table (numerical descriptive results), a chi-squared test (inferential descriptive results), and a fisher exact test (inferential descriptive results). I will also define the upper and lower confidence intervals, and run a test for effectiveness. Then, in each subgroup section, I will analyze the data and give a conclusion. Once each subgroup is completed, I will give my overall thoughts thoughts on the study. 
 
 ## Male
 
@@ -55,7 +55,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 The plots represent the population of males and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
 
-The bar plot depicts that roughly 26% of the male population who got covid-19, took the vaccine. Whereas, about 68% of the males who got covid-19, took the placebo. For men who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of men who took the placebo, contracted covid-19, compared to men who took the vaccine. This indicates that the vaccine appears effective for the male population.
+The bar plot depicts that roughly 26% of the male population who got covid-19, took the vaccine. Whereas, about 68% of the males who got covid-19, took the placebo. For men who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of men who took the placebo, contracted covid-19, compared to men who took the vaccine. This indicates that the vaccine may be effective for the male population.
 
 
 
@@ -69,7 +69,7 @@ colPerc(table1)
 
 The data table above show values of the male population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-About 68% of males that took the placebo, got covid-19. While about 32% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among males. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1. This means men are twice as likely to contract covid when taking the placebo, compared to the vaccine.
+About 68% of males that took the placebo, got covid-19. While about 32% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among males. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is about 2.6 to 1.3, or 2:1. This means men are twice as likely to contract covid when taking the placebo, compared to the vaccine.
 
 
 
@@ -126,7 +126,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 The plots represent the population of females and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
 
-The bar plot depicts that roughly 41% of the female population who got covid-19, took the vaccine. Whereas, about 59% of the females who got covid-19, took the placebo. For women who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of women who took the placebo, contracted covid-19, compared to women who took the vaccine. This indicates that the vaccine appears effective for the female population.
+The bar plot depicts that roughly 41% of the female population who got covid-19, took the vaccine. Whereas, about 59% of the females who got covid-19, took the placebo. For women who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of women who took the placebo, contracted covid-19, compared to women who took the vaccine. This indicates that the vaccine may be effective for the female population.
 
 ### Numerical Descriptive Results 
 
@@ -138,7 +138,7 @@ colPerc(table2)
 
 The data table above show values of the female population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-About 59% of females that took the placebo, got covid-19. While about 41% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among females. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 2.6 to 1.3, or 2:1. This means women are twice as likely to contract covid when taking the placebo, compared to the vaccine.
+About 59% of females that took the placebo, got covid-19. While about 41% that took the vaccine got covid-19. The vaccine is clearly effective here in preventing covid-19 among females. Those who took the vaccine were much less likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is about 2.3 to 1.6 or about 1.4:1. This means women are 1.4 times as likely to contract covid when taking the placebo, compared to the vaccine.
 
 ### Inferential Descriptive Results 
 
@@ -208,7 +208,7 @@ colPerc(table3)
 
 The data table above show values of the gay population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-About 13% of gays that took the placebo, got covid-19. While about 87% that took the vaccine got covid-19. The vaccine is clearly not effective here in preventing covid-19 among gays. Those who took the vaccine were much more likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 0.52 to 3.4, or about 1:6. This means gays are nearly six times more likely to contract covid when taking the vaccine, compared to the placebo.
+About 13% of gays that took the placebo, got covid-19. While about 87% that took the vaccine got covid-19. The vaccine is clearly not effective here in preventing covid-19 among gays. Those who took the vaccine were much more likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is about 0.52 to 3.4, or about 1:6. This means gays are nearly six times more likely to contract covid when taking the vaccine, compared to the placebo.
 
 ### Inferential Descriptive Results 
 
@@ -275,7 +275,7 @@ colPerc(table4)
 
 The data table above show values of the drug user population. It shows both count and percentages. The table shows all the case scenarios, those infected with covid after vaccine, those not infected with covid after placebo, etc. 
 
-About 15% of drug users that took the placebo, got covid-19. While about 85% that took the vaccine got covid-19. The vaccine is clearly not effective here in preventing covid-19 among drug users. Those who took the vaccine were much more likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is 0.6 to 3.28, or 1:5.5. This means drug users are 5.5 times more likely to contract covid when taking the vaccine, compared to the placebo.
+About 15% of drug users that took the placebo, got covid-19. While about 85% that took the vaccine got covid-19. The vaccine is clearly not effective here in preventing covid-19 among drug users. Those who took the vaccine were much more likely to get covid-19. The odds of getting covid-19 for this group, while taking the placebo, is about 0.6 to 3.3, or about 1:5.5. This means drug users are about 5.5 times more likely to contract covid when taking the vaccine, compared to the placebo.
 
 
 
@@ -307,6 +307,11 @@ hi=(Druguserfish$conf.int[2]/(Druguserfish$conf.int[2] +1))*100
 options(digits=2)
 
 ```
+
+
+The odds ratio can approximate how effective the vaccine is. If the odds is above 50%, then the vaccine is effective. The 95% confidence interval will also be used to analyze effectiveness. The lower confidence value is about 0.077 and the higher confidence value is about 0.366. The odds ratio is about 0.18. Once converted to percentages, the lower confidence value is about 7.11% and the higher value is about 26.78%. The odds ratio is about 15%. Since this odds ratio is not higher than 50%, we can not conclude that the vaccine is effective for the drug user population.
+
+
 
 
 ### Conclusion
