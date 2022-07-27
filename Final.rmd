@@ -230,7 +230,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 The plots represent the population of drug users and their relationship to getting covid-19 by taking either the vaccine or placebo. There are two plots that came out. Both plots show two bars for treatment, the placebo or the vaccine. Along the x-axis is the count of people who came in contact with covid. Along the y-axis is those infected with covid. The first plot shows the number of people infected with covid. The second plot shows the percentage of people infected with covid.
 
-
+The bar plot depicts that roughly 82% of the drug user population who got covid-19, took the vaccine. Whereas, about 18% of the drug users who got covid-19, took the placebo. For drug users who did not get covid-19, we can see that the difference is about half for either taking the placebo or vaccine. A substantially higher percentage of drug users who took the vaccine, contracted covid-19, compared to drug users who took the placebo. This indicates that the vaccine is not effective at all for the drug user population.
 
 ### Numerical Descriptive Results 
 
