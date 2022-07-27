@@ -211,6 +211,9 @@ gayfish
 ```
 
 
+After running the chi-squared test, we acquired a P-value of 0.0000000132. After running the fisher's exact test, we acquired a P-value of 0.000000001642. Since these are below 0.05, I reject the null hypothesis due to an extremely small p-value. The fisher exact test also states that the odds ratio is 0.15. I can observe that there is a difference in contracting covid for gays who take the vaccine versus the placebo, it being harmful. 
+
+
 
 ### Effictiveness and Confidence Intervals
 
