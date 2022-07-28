@@ -254,6 +254,9 @@ The odds ratio can approximate how effective the vaccine is. If the odds is abov
 
 ### Conclusion
 
+In this section, we investigated whether or not the preventative vaccine was effective for gays The null hypothesis was "The preventative vaccine, covid91, is not effective for this particular subgroup." The alternative hypothesis was "The preventative vaccine, covid91, is effective for this particular subgroup."
+
+The graphical results did show a difference in gays who contracted covid-19 when taking the vaccine, versus the placebo. The numerical summary also showed this, but gave exact numbers and percentages. Gays were 6 times more likely to contract covid-19 when taking the vaccine, versus the placebo The inferential results showed p-values all under 0.05. I reject the null hypothesis due to low enough p-values. After establishing the odds ratio and 95% confidence interval, we ran test for effectiveness. Since the value was not above 50%, at 13%, I can conclude that the vaccine is not effective for gays. I recommend that gays do not take the vaccine to prevent contracting covid-19.
 
 
 ## Drug User
