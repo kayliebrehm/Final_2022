@@ -32,6 +32,7 @@ A new  preventative vaccine (covid91) is under test in clinical trials. Given th
 
 
 
+
 # Hypothesis and Method
 
 $H_0$: The preventative vaccine, covid91, is not effective for this particular subgroup (male, female, gay, or drug user).
@@ -109,6 +110,10 @@ The odds ratio can approximate how effective the vaccine is. If the odds is abov
 
 ### Conclusion
 
+
+In this section, we investigated whether or not the preventative vaccine was effective for males. The null hypothesis was "The preventative vaccine, covid91, is not effective for this particular subgroup." The alternative hypothesis was "The preventative vaccine, covid91, is effective for this particular subgroup."
+
+The graphical results did show a difference in men who contracted covid-19 when taking the vaccine, versus the placebo. The numerical summary also showed this, but gave exact numbers and percentages. Men were 2 times more likely to contract covid-19 when taking the placebo, versus the vaccine. The inferential results showed p-values all under 0.05. I reject the null hypothesis due to low enough p-values. After establishing the odds ratio and 95% confidence interval, we ran test for effectiveness. Since the value was above 50%, at 68%, I can conclude that the vaccine is effective for males. I recommend that men take the vaccine to prevent contracting covid-19.
 
 
 ## Female
