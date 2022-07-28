@@ -35,9 +35,9 @@ A new  preventative vaccine (covid91) is under test in clinical trials. Given th
 
 # Hypothesis and Method
 
-$H_0$: The preventative vaccine, covid91, is not effective for this particular subgroup (male, female, gay, or drug user).
+$H_0$: There is no difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user).
 
-$H_A$: The preventative vaccine, covid91, is effective for this particular subgroup (male, female, gay, or drug user).
+$H_A$: There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user).
 
 Whether an individual was infected or not is categorical. Whether an individual took the vaccine or placebo is categorical. I will use a CAT~CAT analysis to determine whether the vaccine was effective for each particular subgroup: male, female, gay, or drug user. In each subgroup section, I will use a bar chart (graphical descriptive results), a data table (numerical descriptive results), a chi-squared test (inferential descriptive results), and a fisher exact test (inferential descriptive results). I will also define the upper and lower confidence intervals, and run a test for effectiveness. Then, in each subgroup section, I will analyze the data and give a conclusion. Once each subgroup is completed, I will give my overall thoughts thoughts on the study. 
 
@@ -111,7 +111,7 @@ The odds ratio can approximate how effective the vaccine is. If the odds is abov
 ### Conclusion
 
 
-In this section, we investigated whether or not the preventative vaccine was effective for males. The null hypothesis was "The preventative vaccine, covid91, is not effective for this particular subgroup." The alternative hypothesis was "The preventative vaccine, covid91, is effective for this particular subgroup."
+In this section, we investigated whether or not the preventative vaccine was effective for males. The null hypothesis was "There is no difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)." The alternative hypothesis was "There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)."
 
 The graphical results did show a difference in men who contracted covid-19 when taking the vaccine, versus the placebo. The numerical summary also showed this, but gave exact numbers and percentages. Men were 2 times more likely to contract covid-19 when taking the placebo, versus the vaccine. The inferential results showed p-values all under 0.05. I reject the null hypothesis due to low enough p-values. After establishing the odds ratio and 95% confidence interval, we ran test for effectiveness. Since the value was above 50%, at 68%, I can conclude that the vaccine is effective for males. I recommend that men take the vaccine to prevent contracting covid-19.
 
@@ -182,7 +182,7 @@ The odds ratio can approximate how effective the vaccine is. If the odds is abov
 
 ### Conclusion
 
-In this section, we investigated whether or not the preventative vaccine was effective for females. The null hypothesis was "The preventative vaccine, covid91, is not effective for this particular subgroup." The alternative hypothesis was "The preventative vaccine, covid91, is effective for this particular subgroup."
+In this section, we investigated whether or not the preventative vaccine was effective for females. The null hypothesis was "There is no difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)." The alternative hypothesis was "There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)."
 
 The graphical results did show a difference in women who contracted covid-19 when taking the vaccine, versus the placebo. The numerical summary also showed this, but gave exact numbers and percentages. Women were 1.4 times more likely to contract covid-19 when taking the placebo, versus the vaccine. The inferential results showed p-values all under 0.05. I reject the null hypothesis due to low enough p-values. After establishing the odds ratio and 95% confidence interval, we ran test for effectiveness. Since the value was above 50%, at 59%, I can conclude that the vaccine is effective for females. I recommend that women take the vaccine to prevent contracting covid-19.
 
@@ -254,7 +254,7 @@ The odds ratio can approximate how effective the vaccine is. If the odds is abov
 
 ### Conclusion
 
-In this section, we investigated whether or not the preventative vaccine was effective for gays The null hypothesis was "The preventative vaccine, covid91, is not effective for this particular subgroup." The alternative hypothesis was "The preventative vaccine, covid91, is effective for this particular subgroup."
+In this section, we investigated whether or not the preventative vaccine was effective for gays The null hypothesis was "There is no difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)." The alternative hypothesis was "There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)."
 
 The graphical results did show a difference in gays who contracted covid-19 when taking the vaccine, versus the placebo. The numerical summary also showed this, but gave exact numbers and percentages. Gays were 6 times more likely to contract covid-19 when taking the vaccine, versus the placebo The inferential results showed p-values all under 0.05. I reject the null hypothesis due to low enough p-values. After establishing the odds ratio and 95% confidence interval, we ran test for effectiveness. Since the value was not above 50%, at 13%, I can conclude that the vaccine is not effective for gays. I recommend that gays do not take the vaccine to prevent contracting covid-19.
 
@@ -328,10 +328,22 @@ The odds ratio can approximate how effective the vaccine is. If the odds is abov
 ### Conclusion
 
 
-In this section, we investigated whether or not the preventative vaccine was effective for drug users. The null hypothesis was "The preventative vaccine, covid91, is not effective for this particular subgroup." The alternative hypothesis was "The preventative vaccine, covid91, is effective for this particular subgroup."
+In this section, we investigated whether or not the preventative vaccine was effective for drug users. The null hypothesis was "There is no difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)." The alternative hypothesis was "There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)."
 
 The graphical results did show a difference in drug users who contracted covid-19 when taking the vaccine, versus the placebo. The numerical summary also showed this, but gave exact numbers and percentages. Drug users were 5.5 times more likely to contract covid-19 when taking the vaccine, versus the placebo The inferential results showed p-values all under 0.05. I reject the null hypothesis due to low enough p-values. After establishing the odds ratio and 95% confidence interval, we ran test for effectiveness. Since the value was not above 50%, at 15%, I can conclude that the vaccine is not effective for drug users. I recommend that drug users do not take the vaccine to prevent contracting covid-19.
 
 
 # Final Thoughts and Discussion
+
+In this study, we investigated whether or not the preventative vaccine was effective for a particular subgroup. The null hypothesis was "There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)." The alternative hypothesis was "There is a difference in contracting covid-19 when taking the preventative vaccine, covid91, compared to the pacebo for this particular subgroup (male, female, gay, or drug user)." In each subgroup section we used a CAT~CAT analysis to study bar charts, data tables, chi-squared tests, and fisher exact tests. Each section also defined the upper and lower confidence intervals, and ran a test for effectiveness. Each section included an in-depth analysis, and conclusion. This ultimately lead to my recommendation for each particular subgroup, for if they should take the vaccine to prevent contracting covid-19.
+
+With men, I rejected the null hypothesis due to p-values under 0.05. I concluded that the vaccine was effective for preventing the contraction of covid-19, compared to the placebo. For this subgroups safety, I recommend that they do take the vaccine.
+
+With women, I rejected the null hypothesis due to p-values under 0.05. I concluded that the vaccine was effective for preventing the contraction of covid-19, compared to the placebo. For this subgroups safety, I recommend that they do take the vaccine.
+
+With gays, I rejected the null hypothesis due to p-values under 0.05. I concluded that the vaccine was not effective for preventing the contraction of covid-19, compared to the placebo. For this subgroups safety, I do not recommend that they take the vaccine.
+
+With drug users, I rejected the null hypothesis due to p-values under 0.05. I concluded that the vaccine was not effective for preventing the contraction of covid-19, compared to the placebo. For this subgroups safety, I do not recommend that they take the vaccine.
+
+Overall, the vaccine was most effective for men and least effective for gays. 
 
